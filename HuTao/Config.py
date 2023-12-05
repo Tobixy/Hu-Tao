@@ -8,9 +8,9 @@ LOGGER = getLogger(__name__)
 
 # Required ENV
 try:
-    BOT_TOKEN = "" # BOT TOKEN
-    API_ID =  123 # API ID
-    API_HASH = "" # API HASH
+    BOT_TOKEN = "6315953148:AAHxTD8ZboAU30Brpw-ZJl20UcY88CnrEe8" # BOT TOKEN
+    API_ID =  28122413 # API ID
+    API_HASH = "750432c8e1b221f91fd2c93a92710093" # API HASH
 except Exception as e:
     LOGGER.error(f"Looks Like Something Is Missing!! Please Check Variables\n{e}")
     sys.exit(1)
